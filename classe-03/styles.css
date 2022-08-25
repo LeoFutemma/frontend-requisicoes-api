@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.buscar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1,
+p {
+  text-transform: capitalize;
+}
+
+h2 {
+  display: none;
+  margin: 15px 0 5px 0;
+  font-size: 30px;
+
+}
+
+.show {
+  display: block;
+}

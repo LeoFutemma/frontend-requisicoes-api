@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container__main {
+  text-align: center;
+}
+
+.busca {
+  display: inline-flex;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.texto {
+  text-align: start;
+}
+
+p {
+  margin-bottom: 3px;
+}

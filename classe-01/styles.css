@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.campo {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bolder;
+  margin-right: 5px;
+}
